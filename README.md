@@ -11,8 +11,8 @@
 - a way to build a tree-like structure
 
 ### Flyweight pattern
-- divided into intrinsic stat (common) and extrinsic states (unique to each flyweight)
-- By sharing the common intrinsic states, it can increase the memory efficiency
+- divided into intrinsic (common) and extrinsic states (unique to each flyweight)
+- by sharing the common intrinsic states, it can increase memory efficiency
 
 ## Behavior Pattern
 ### Mediator pattern
