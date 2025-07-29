@@ -16,5 +16,12 @@ class ConcreteSingletonB(metaclass=MetaclassSingleton):
     pass
 
 
-t = ConcreteSingletonA()
+t1 = ConcreteSingletonA()
+t1b = ConcreteSingletonA()
 t2 = ConcreteSingletonB()
+t2b = ConcreteSingletonB()
+
+print(t1 == t2)
+print(t1 == t1b)
+print(t2 == t2b)
+
